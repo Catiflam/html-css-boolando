@@ -20,9 +20,6 @@ body {
   margin: 0 300px;
 }
 
-.justify-content {
-  justify-content: center;
-}
 .logo {
   width: 100px;
   position: absolute;
@@ -43,16 +40,21 @@ a {
 }
 
 .container {
-  max-width: 1180px;
+  max-width: 1280px;
   margin: 0 auto;
 }
-
+.container-brand {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: inline-block;
+}
 .card {
   width: 400px;
   height: 600px;
   margin-top: 80px;
   position: relative;
   cursor: pointer;
+  display: inline-block;
 }
 
 .card img {
@@ -72,6 +74,7 @@ a {
   bottom: 60px;
   left: 0;
   font-size: 1rem;
+  flex-wrap: wrap;
 }
 .bg-green {
   background-color: green;
@@ -89,6 +92,10 @@ a {
   top: 10px;
   right: 0;
   font-size: 2rem;
+}
+
+.box {
+  display: inline-block;
 }
 .box img {
   width: 100%;
