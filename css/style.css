@@ -90,9 +90,25 @@ a {
   right: 0;
   font-size: 2rem;
 }
-
-.logo-img:hover {
+.box img {
+  width: 100%;
 }
+
 .logo-hide {
-  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.box:hover img {
+  opacity: 0;
+}
+.box:hover img.logo-hide {
+  opacity: 1;
+}
+.red-heart {
+  color: none;
+}
+.card:hover > .red-heart {
+  color: red;
 }
