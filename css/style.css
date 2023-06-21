@@ -85,6 +85,15 @@ a {
   left: 50px;
   font-size: 1rem;
 }
+.gred {
+  background-color: green;
+  padding: 5px 5px;
+  color: white;
+  position: absolute;
+  bottom: 60px;
+  left: 0px;
+  font-size: 1rem;
+}
 .heart {
   background-color: white;
   padding: 8px 15px;
