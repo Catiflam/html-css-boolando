@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-head {
+  background-color: orange;
+}
+
+.head-tag {
+  display: flex;
+  justify-content: space-between;
+}
