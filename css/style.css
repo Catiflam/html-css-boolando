@@ -15,9 +15,8 @@ body {
   min-height: 80px;
   display: flex;
   align-items: center;
-  font-size: 1rem;
   position: relative;
-  margin: 0 300px;
+  justify-content: space-between;
 }
 
 .logo {
@@ -33,11 +32,11 @@ a {
 .flex {
   display: flex;
 }
-.icon {
+/* .icon {
   position: absolute;
   top: 30px;
-  right: 0;
-}
+  right: 30px;
+} */
 
 .container {
   max-width: 1280px;
@@ -127,4 +126,7 @@ a {
 }
 .card:hover > .red-heart {
   color: red;
+}
+.foot {
+  background-color: black;
 }
